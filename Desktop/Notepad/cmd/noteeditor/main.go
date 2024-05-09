@@ -12,7 +12,7 @@ import (
 )
 
 func main() {
-	note.InitDB("user=postgres dbname=note_db sslmode=disable")
+	note.InitDB("user=postgres password=12345 dbname=note_db sslmode=disable")
 
 	r := mux.NewRouter()
 
