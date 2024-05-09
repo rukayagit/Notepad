@@ -8,7 +8,7 @@ import (
 	"encoding/json"
 
 	"github.com/gorilla/mux"
-	"C:\\Users\\Рукайя\\Desktop\\Notepad\\pkg\\note"
+	"github.com/rukayagit/Notepad/pkg/note"
 )
 
 func main() {
